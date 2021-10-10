@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const FooterContent = styled.div`
-  max-width: 1400px;
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 2rem 0;
+  padding: 2rem;
 `;
 
 export const FooterContainer = styled.footer`
@@ -16,12 +15,11 @@ export const FooterContainer = styled.footer`
   align-items: center;
   background-color: #0b090a;
   border-top: 1rem solid #a4161a;
-  color: #fff;
 `;
 
 export const ContainerLogo = styled.div`
-  height: 6rem;
-  width: 6rem;
+  height: 12rem;
+  width: 12rem;
 
   img {
     max-width: 100%;
@@ -30,18 +28,24 @@ export const ContainerLogo = styled.div`
 `;
 
 export const TitleFooter = styled.h3`
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
   padding: 0;
-  line-height: 1;
 `;
 
 export const ListUbications = styled.ul`
+  padding-left: 4rem;
   li {
-    padding-left: 4rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+
     span {
-      color: #a4161a;
+      display: inline-block;
+      color: var(--red-primary);
       font-weight: 700;
     }
   }
@@ -49,10 +53,13 @@ export const ListUbications = styled.ul`
 
 export const ListSocials = styled.ul`
   li {
-    margin-bottom: 0.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
     text-align: right;
+    font-weight: 700;
     span {
-      color: #a4161a;
+      color: var(--red-primary);
       font-weight: 700;
     }
   }

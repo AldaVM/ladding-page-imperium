@@ -25,7 +25,7 @@ export default function Footer() {
           </ListUbications>
         </div>
         <ContainerLogo>
-          <img src="assets/img/logo-footer.jpg" alt="Logo Imperium Cross" />
+          <img src="assets/img/logo-imperium-cross.png" alt="Logo Imperium Cross" />
         </ContainerLogo>
         <ListSocials>
           <li>
@@ -41,7 +41,7 @@ export default function Footer() {
             SIGUENOS EN @IMPERIUMCROSS
           </li>
           <li>
-            <span>CONTACTO</span> 987 717 277 - 993 620 024 - 935 257 567
+            <span>CONTACTO:</span> 987 717 277 - 993 620 024 - 935 257 567
           </li>
         </ListSocials>
       </FooterContent>

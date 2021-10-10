@@ -25,4 +25,13 @@ export const ItemNavbar = styled.li`
   :hover {
     color: var(--red-primary);
   }
+
+  @media only screen and (max-width: 1400px) {
+    width: 10rem;
+    font-size: 0.8em;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    display: none;
+  }
 `;

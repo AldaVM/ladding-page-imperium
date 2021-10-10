@@ -17,7 +17,9 @@ export const ContainerCard = styled.li`
   align-items: center;
   color: #fff;
 
-  h3 {
-    margin-top: 1rem;
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
   }
 `;

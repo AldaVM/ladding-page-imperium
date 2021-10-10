@@ -25,7 +25,8 @@ export const ContainerImage = styled.div`
 `;
 
 export const MainClassFree = styled.section`
-  padding: 3rem 0;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

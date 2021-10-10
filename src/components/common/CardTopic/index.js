@@ -6,7 +6,7 @@ export default function CardTopic({ image, description, title }) {
       <ContainerImage>
         <img src={image} alt={`${description} ${title}`} />
       </ContainerImage>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
     </ContainerCard>
   );
 }

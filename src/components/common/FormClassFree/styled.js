@@ -18,7 +18,7 @@ export const ContainerInput = styled.div`
   margin-bottom: 1rem;
 
   label {
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
   }
 
   input {
@@ -29,6 +29,13 @@ export const ContainerInput = styled.div`
     color: #fff;
     font-size: 1rem;
   }
+`;
+
+export const ErrorMessageForm = styled.span`
+  display: inline-block;
+  padding: 5px 0;
+  color: var(--red-primary);
+  font-size: 0.8rem;
 `;
 
 export const ButtonForm = styled.button`
