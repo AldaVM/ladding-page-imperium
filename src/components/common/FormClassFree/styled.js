@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const ContainerForm = styled.section`
-  width: 48%;
+  width: 47%;
   color: #fff;
   font-size: 1rem;
+  font-weight: 700;
 
   form {
     display: flex;
@@ -14,22 +15,30 @@ export const ContainerForm = styled.section`
 export const ContainerInput = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
+
+  label {
+    padding-bottom: .5rem;
+  }
 
   input {
     background: transparent;
-    border: 2px solid #a4161a;
-    padding: 0.3em;
+    border: 2px solid var(--red-primary);
+    padding: 1rem;
     border-radius: 0;
     color: #fff;
+    font-size: 1rem;
   }
 `;
 
 export const ButtonForm = styled.button`
-  background: #a4161a;
+  background-color: var(--red-primary);
   border: none;
-  color: #ffffff;
-  padding: 0.5em 2.5em;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 3rem;
   border-radius: 0;
   align-self: flex-end;
+  cursor: pointer;
 `;

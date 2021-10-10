@@ -6,15 +6,15 @@ export default function SectionBanner() {
     <ContainerDobleBanner>
       <Banner
         title="CROSSFIT"
-        description="ESTO ES NO LEGIBLE"
+        description="¿QUÉ ES EL CROSSFIT?"
         message="LEER MÁS"
         image="assets/img/banner1-min.jpg"
         link="#"
       />
       <Banner
         title="EMPIEZA HOY"
-        description="ESTO ES NO LEGIBLE"
-        message="LEER MÁS"
+        description="PRUEBA UNA CLASE"
+        message="SOLICITAR"
         image="assets/img/banner2-min.jpg"
         link="#"
       />

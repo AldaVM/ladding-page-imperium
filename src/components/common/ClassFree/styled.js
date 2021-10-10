@@ -7,8 +7,8 @@ export const Container = styled.div`
 
 export const ContrasterConteiner = styled.div`
   position: absolute;
-  background-color: #0b090a;
-  opacity: 0.8;
+  background-color: var(--black-background);
+  opacity: 0.85;
   top: 0;
   width: 100%;
   height: 100%;
@@ -16,7 +16,8 @@ export const ContrasterConteiner = styled.div`
 
 export const ContainerImage = styled.div`
   width: 100%;
-
+  text-align: center;
+  background-color: var(--black-background);
   img {
     max-width: 100%;
     vertical-align: top;
@@ -40,23 +41,24 @@ export const ContainerFrom = styled.div`
   justify-content: space-between;
   padding: 2em;
   postion: relative;
-  border: 2px solid #ffffff;
-  max-width: 900px;
+  border: 3px solid #ffffff;
+  max-width: 1100px;
 `;
 
 export const TitleClassFree = styled.h2`
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
   display: inline-block;
-  max-width: 600px;
+  max-width: 800px;
+  line-height: 1.1;
   text-align: center;
   color: #ffffff;
-  line-height: 1.2;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 
   span {
-    color: #a4161a;
+    color: var(--red-primary);
     font-weight: 700;
     display: inline-block;
-    padding: 0px 1px;
+    margin: 0px 2px;
   }
 `;

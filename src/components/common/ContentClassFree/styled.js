@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerTextClassFree = styled.div`
   width: 48%;
   position: relative;
-  left: -1rem;
   display: flex;
   flex-direction: column;
 
@@ -14,15 +13,36 @@ export const ContainerTextClassFree = styled.div`
   }
 `;
 
+export const ListClassFree = styled.ul`
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+
+  li {
+    padding: 0.5rem 0;
+  }
+
+  li::before {
+    content: ".";
+    color: var(--red-primary);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+`;
+
 export const TitleForm = styled.h3`
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: 700;
   text-align: center;
   line-height: 1;
   margin-bottom: 2rem;
   color: #ffffff;
 
   span {
-    color: #a4161a;
+    color: var(--red-primary);
     font-weight: 700;
   }
 `;

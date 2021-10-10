@@ -16,8 +16,8 @@ export const ContainerImage = styled.div`
 
 export const ContentBanner = styled.div`
   position: absolute;
-  background-color: #0b090a;
-  opacity: 0.7;
+  background-color: var(--black-background);
+  opacity: 0.4;
   top: 0;
   width: 100%;
   height: 100%;
@@ -31,7 +31,6 @@ export const TextBanner = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  color: #ffffff;
 `;
 
 export const ContentTextBanner = styled.div`
@@ -43,26 +42,42 @@ export const ContentTextBanner = styled.div`
 
   span {
     display: inline-block;
-    margin-bottom: 3px;
-    margin-left: 2px;
-    font-size: 0.7rem;
-    line-height: 1;
+    margin-left: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 
   h3 {
-    margin-bottom: 3px;
-    font-size: 2rem;
-    padding: 0;
-    line-height: 1;
+    font-size: 3rem;
+    padding: 0.5rem 0;
+    font-weight: 700;
   }
 
   a {
+    position: relative;
     background: rgba(0, 0, 0, 0.5);
-    font-size: 0.6em;
+    font-size: 0.8rem;
     color: #fff;
     text-decoration: none;
-    border: 1px solid #fff;
-    padding: 0.5rem 1rem;
+    border: 2px solid #fff;
+    padding: 1rem 2rem;
     align-self: flex-end;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    ::before {
+      content: "";
+      position: absolute;
+      bottom: -6px;
+      left: 6px;
+      padding: 1rem;
+      width: 100%;
+      background-color: transparent;
+      border-bottom: 2px solid #fff;
+      border-right: 2px solid #fff;
+    }
+    :hover {
+      color: var(--red-primary);
+      background: rgba(0, 0, 0, 0.7);
+    }
   }
 `;

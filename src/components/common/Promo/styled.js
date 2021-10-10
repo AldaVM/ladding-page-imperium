@@ -13,23 +13,41 @@ export const ContainerPromo = styled.div`
 
   p {
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 1.5rem;
+    padding: 0.3rem 0;
     color: #ffffff;
     text-align: center;
+    font-weight: 700;
+  }
+`;
+
+export const SupayRight = styled.div`
+  position: absolute;
+  width: 250px;
+  top: 4rem;
+  right: 0;
+
+  img{
+    width: 100%;
+    vertical-align: top;
   }
 `;
 
 export const SectionPromo = styled.section`
-  background-color: #0b090a;
-  padding: 3rem 0;
+  width: 100%;
+  position: relative;
+  background-color: var(--black-background);
+  padding-top: 6rem;
+  padding-bottom: 8rem;
   display: flex;
   justify-content: center;
 `;
 
 export const TitlePromo = styled.h1`
-  font-size: 3.2rem;
+  font-size: 4.5rem;
+  font-weight: 700;
   line-height: 1;
-  margin-bottom: 5px;
+  padding: 1rem 0;
   text-align: center;
   color: #ffffff;
 `;

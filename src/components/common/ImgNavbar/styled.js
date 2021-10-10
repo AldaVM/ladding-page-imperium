@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerLogo = styled.div`
-  width: 200px;
+  max-width: 250px;
   padding: 0;
 
   img {

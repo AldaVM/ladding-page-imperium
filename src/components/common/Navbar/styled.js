@@ -6,12 +6,23 @@ export const ListNavbar = styled.ul`
 `;
 
 export const ItemNavbar = styled.li`
-  border-bottom: 1px solid #ffffff;
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
-  margin:1px;
-  padding: 1.3em 2.5em;
+  display: inline-block;
+  text-align: center;
+  width: 13rem;
+  border-bottom: 1px;
+  border-left: ${(props) => (props.borderLeft ? props.borderLeft : "0")};
+  border-right: ${(props) => (props.borderRight ? props.borderRight : "0")};
+  border-top: 0;
+  border-style: solid;
+  border-color: #fff;
+  padding: 2rem 0;
   color: #ffffff;
+  font-weight: 700;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 0.9em;
+  transition: color 0.5s ease-in-out;
+
+  :hover {
+    color: var(--red-primary);
+  }
 `;

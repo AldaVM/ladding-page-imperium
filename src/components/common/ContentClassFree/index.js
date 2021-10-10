@@ -1,4 +1,4 @@
-import { TitleForm, ContainerTextClassFree } from "./styled";
+import { TitleForm, ContainerTextClassFree, ListClassFree } from "./styled";
 
 export default function ContentClassFree() {
   return (
@@ -6,9 +6,11 @@ export default function ContentClassFree() {
       <TitleForm>
         PRUEBA UNA CLASE <span>GRATUITA</span>
       </TitleForm>
-      <p>CLASES GRUPALES DE UNA HORA DE DUREACCIÓN</p>
-      <p>ENTRAMIENTOS ASESORADOS POR UN COACH</p>
-      <p>EQUIPAMIENTO EXCLUSIVO DE CROSSFIT</p>
+      <ListClassFree>
+        <li>CLASES GRUPALES DE UNA HORA DE DUREACCIÓN</li>
+        <li>ENTRAMIENTOS ASESORADOS POR UN COACH</li>
+        <li>EQUIPAMIENTO EXCLUSIVO DE CROSSFIT</li>
+      </ListClassFree>
     </ContainerTextClassFree>
   );
 }

@@ -1,4 +1,4 @@
-import { TitlePromo, SectionPromo, ContainerPromo } from "./styled";
+import { TitlePromo, SectionPromo, ContainerPromo, SupayRight } from "./styled";
 
 export default function Promo() {
   return (
@@ -13,6 +13,9 @@ export default function Promo() {
           TE ENSEÑARA Y TE ALIENTARÁ A CONSEGUIR TUS OBJETIVOS EN EL FITNESS
         </p>
       </ContainerPromo>
+      <SupayRight>
+        <img src="/assets/img/logo-right.png" />
+      </SupayRight>
     </SectionPromo>
   );
 }
