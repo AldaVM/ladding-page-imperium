@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerForm = styled.section`
   width: 47%;
   color: #fff;
-  font-size: 1rem;
   font-weight: 700;
 
   form {
@@ -19,6 +18,7 @@ export const ContainerInput = styled.div`
 
   label {
     padding-bottom: 0.5rem;
+    font-size: 1.1rem;
   }
 
   input {
@@ -35,8 +35,14 @@ export const ErrorMessageForm = styled.span`
   display: inline-block;
   padding: 5px 0;
   color: var(--red-primary);
-  font-size: 0.8rem;
+  font-size: 1rem;
 `;
+
+export const MessageResponse = styled.div`
+  padding-top: 1rem;
+  font-size: 1.5rem;
+
+`
 
 export const ButtonForm = styled.button`
   background-color: var(--red-primary);

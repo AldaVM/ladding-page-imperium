@@ -15,7 +15,7 @@ export const ContainerTextClassFree = styled.div`
 
 export const ListClassFree = styled.ul`
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
 
@@ -34,11 +34,11 @@ export const ListClassFree = styled.ul`
 `;
 
 export const TitleForm = styled.h3`
-  font-size: 3.5rem;
+  font-size: 6rem;
   font-weight: 700;
   text-align: center;
   line-height: 1;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #ffffff;
 
   span {

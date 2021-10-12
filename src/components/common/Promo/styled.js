@@ -13,7 +13,7 @@ export const ContainerPromo = styled.div`
 
   p {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0.3rem 0;
     color: #ffffff;
     text-align: center;
@@ -44,7 +44,7 @@ export const SectionPromo = styled.section`
 `;
 
 export const TitlePromo = styled.h1`
-  font-size: 4.5rem;
+  font-size: 7rem;
   font-weight: 700;
   line-height: 1;
   padding: 1rem 0;
