@@ -118,7 +118,8 @@ section {
 body {
   width: 100%;
   line-height: 1;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  background-color: var(--black-background);
 }
 ol,
 ul {

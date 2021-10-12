@@ -13,8 +13,8 @@ export const FooterContainer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0b090a;
-  border-top: 1rem solid #a4161a;
+  background-color: var(--black-background);
+  border-top: 1rem solid var(--red-primary);
 `;
 
 export const ContainerLogo = styled.div`
