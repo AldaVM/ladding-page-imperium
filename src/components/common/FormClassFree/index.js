@@ -28,6 +28,7 @@ export default function FormClassFree() {
         },
         body: JSON.stringify(values),
       });
+      console.log(response);
       setIsLoading(false);
       if (response.status >= 200 && response.status < 300) {
         setMessageResponse(

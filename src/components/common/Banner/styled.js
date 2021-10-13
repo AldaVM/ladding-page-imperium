@@ -48,7 +48,7 @@ export const ContentTextBanner = styled.div`
   }
 
   h3 {
-    font-size: 3rem;
+    font-size: var(--font-size-sub-titles);
     padding: 0.5rem 0;
     font-weight: 700;
   }

@@ -9,6 +9,7 @@ export const validationSendEmail = Yup.object({
     .required("Los nombres son requeridos"),
   telephone: Yup.string()
     .matches(phoneRegExp, "Formato no válido.")
+    .min(9, "Formato no válido.")
     .max(12, "Formato no válido.")
     .required("El número de celular es requerido."),
   dni: Yup.string()

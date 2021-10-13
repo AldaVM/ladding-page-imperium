@@ -9,11 +9,12 @@ export const ContainerPromo = styled.div`
   span {
     color: #a4161a;
     font-weight: 700;
+    font-size: var(--font-size-sub-titles);
   }
 
   p {
     display: inline-block;
-    font-size: 2rem;
+    font-size: var(--font-size-sub-titles);
     padding: 0.3rem 0;
     color: #ffffff;
     text-align: center;
@@ -23,11 +24,11 @@ export const ContainerPromo = styled.div`
 
 export const SupayRight = styled.div`
   position: absolute;
-  width: 250px;
+  width: 340px;
   top: 4rem;
   right: 0;
 
-  img{
+  img {
     width: 100%;
     vertical-align: top;
   }
@@ -44,7 +45,7 @@ export const SectionPromo = styled.section`
 `;
 
 export const TitlePromo = styled.h1`
-  font-size: 7rem;
+  font-size: var(--font-size-pricipal-titles);
   font-weight: 700;
   line-height: 1;
   padding: 1rem 0;

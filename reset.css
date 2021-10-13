@@ -5,6 +5,38 @@
   /*Colors*/
   --red-primary: #a4161a;
   --black-background: #0b090a;
+  /*Typographics*/
+  --font-size-menu: 1rem;
+  --font-size-sub-titles: 3rem;
+  --font-size-pricipal-titles: 7.5rem;
+}
+
+@media only screen and (max-width: 1670px) {
+  :root {
+    --font-size-sub-titles: 2rem;
+    --font-size-pricipal-titles: 6rem;
+  }
+}
+
+@media only screen and (max-width: 1580px) {
+  :root {
+    --font-size-sub-titles: 2rem;
+    --font-size-pricipal-titles: 5.5rem;
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  :root {
+    --font-size-pricipal-titles: 5rem;
+    --font-size-sub-titles: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  :root {
+    --font-size-pricipal-titles: 2rem;
+    --font-size-sub-titles: 1.5rem;
+  }
 }
 
 *,
@@ -118,7 +150,8 @@ section {
 body {
   width: 100%;
   line-height: 1;
-  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+  font-family: "Bebas Neue", cursive;
   background-color: var(--black-background);
 }
 ol,

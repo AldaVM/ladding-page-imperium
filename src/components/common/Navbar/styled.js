@@ -19,7 +19,7 @@ export const ItemNavbar = styled.li`
   color: #ffffff;
   font-weight: 700;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: var(--font-size-menu);
   transition: color 0.5s ease-in-out;
 
   :hover {

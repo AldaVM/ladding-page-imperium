@@ -14,7 +14,7 @@ export default function Promo() {
         </p>
       </ContainerPromo>
       <SupayRight>
-        <img src="/assets/img/logo-right.png" />
+        <img src="/assets/img/logo-right.png" loading="lazy" />
       </SupayRight>
     </SectionPromo>
   );

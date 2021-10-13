@@ -5,6 +5,7 @@ export default function ImgNavbar() {
       <img
         src="/assets/img/logo-left.png"
         alt="Logo Imperium Cross"
+        loading="lazy"
       />
     </ContainerLogo>
   );

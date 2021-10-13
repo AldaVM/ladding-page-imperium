@@ -16,6 +16,7 @@ export default function ClassFree() {
         <img
           src="assets/img/banner4-min.jpg"
           alt={`Imagen panoramica del BOX imperium cross`}
+          loading="lazy"
         />
       </ContainerImage>
       <ContrasterConteiner />
