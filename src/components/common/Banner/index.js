@@ -6,9 +6,16 @@ import {
   ContentTextBanner,
 } from "./styled";
 
-export default function Banner({ title, description, message, link, image }) {
+export default function Banner({
+  title,
+  description,
+  message,
+  link,
+  image,
+  isSecond,
+}) {
   return (
-    <ContainerBanner>
+    <ContainerBanner isSecond={isSecond}>
       <ContainerImage>
         <img src={image} alt={`${description} ${title}`} loading="lazy" />
       </ContainerImage>

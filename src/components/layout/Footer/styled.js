@@ -20,6 +20,7 @@ export const FooterContainer = styled.footer`
 export const ContainerLogo = styled.div`
   height: 12rem;
   width: 12rem;
+  padding: 1rem;
 
   img {
     max-width: 100%;
@@ -29,18 +30,18 @@ export const ContainerLogo = styled.div`
 
 export const TitleFooter = styled.h3`
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: var(--font-size-footer);
   font-weight: 700;
   color: #fff;
   padding: 0;
 `;
 
 export const ListUbications = styled.ul`
-  padding-left: 4rem;
+  padding-left: 1rem;
   li {
     margin-bottom: 1rem;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: var(--font-size-footer);
     font-weight: 700;
 
     span {
@@ -55,7 +56,7 @@ export const ListSocials = styled.ul`
   li {
     color: #fff;
     margin-bottom: 1.5rem;
-    font-size: 1.5rem;
+    font-size: var(--font-size-footer);
     text-align: right;
     font-weight: 700;
     span {

@@ -10,6 +10,7 @@ export default function SectionBanner() {
         message="LEER MÁS"
         image="assets/img/banner1-min.jpg"
         link="#"
+        isSecond={false}
       />
       <Banner
         title="EMPIEZA HOY"
@@ -17,6 +18,7 @@ export default function SectionBanner() {
         message="SOLICITAR"
         image="assets/img/banner2-min.jpg"
         link="#"
+        isSecond={true}
       />
     </ContainerDobleBanner>
   );

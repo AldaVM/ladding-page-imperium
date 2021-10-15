@@ -5,23 +5,29 @@
   /*Colors*/
   --red-primary: #a4161a;
   --black-background: #0b090a;
+  --bg-color-image: hsl(220, 14%, 75%);
   /*Typographics*/
   --font-size-menu: 1rem;
   --font-size-sub-titles: 3rem;
+  --font-size-footer: 2rem;
   --font-size-pricipal-titles: 7.5rem;
+  --font-size-free-title: 6rem;
+  --font-size-banner-title: 3rem;
+  --font-size-free-item: 2rem;
 }
 
 @media only screen and (max-width: 1670px) {
   :root {
     --font-size-sub-titles: 2rem;
     --font-size-pricipal-titles: 6rem;
+    --font-size-free-title: 5rem;
   }
 }
 
 @media only screen and (max-width: 1580px) {
   :root {
-    --font-size-sub-titles: 2rem;
     --font-size-pricipal-titles: 5.5rem;
+    --font-size-free-title: 4rem;
   }
 }
 
@@ -32,10 +38,31 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  :root {
+    --font-size-footer: 1.5rem;
+    --font-size-free-item: 1.5rem;
+    --font-size-sub-titles: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  :root {
+    --font-size-pricipal-titles: 3rem;
+    --font-size-free-title: 2.5rem;
+    --font-size-sub-titles: 1.8rem;
+    --font-size-footer: 1.1rem;
+    --font-size-free-item: 1.1rem;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   :root {
+    --font-size-free-title: 2rem;
     --font-size-pricipal-titles: 2rem;
     --font-size-sub-titles: 1.5rem;
+    --font-size-footer: 1rem;
+    --font-size-free-item: 1.1rem;
   }
 }
 
@@ -181,5 +208,20 @@ table {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+@keyframes slide {
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    transform: scale(1.2);
   }
 }

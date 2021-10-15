@@ -3,13 +3,28 @@ import styled from "styled-components";
 export const ContainerBanner = styled.section`
   position: relative;
   width: 50%;
+  top: 0;
+  opacity: 1;
+
+  @media only screen and (max-width: 870px) {
+    position: ${(props) => (props.isSecond ? "absolute" : "relative")};
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    animation: slide 10s infinite;
+    animation-delay: ${(props) => (props.isSecond ? "5s" : "10s")};
+  }
 `;
 
 export const ContainerImage = styled.div`
   width: 100%;
+  max-height: 600px;
+  background-color: var(--bg-color-image);
 
   img {
     max-width: 100%;
+    height: 100%;
     vertical-align: top;
   }
 `;
@@ -42,13 +57,12 @@ export const ContentTextBanner = styled.div`
 
   span {
     display: inline-block;
-    margin-left: 4px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 700;
   }
 
   h3 {
-    font-size: var(--font-size-sub-titles);
+    font-size: var(--font-size-banner-title);
     padding: 0.5rem 0;
     font-weight: 700;
   }
@@ -56,7 +70,7 @@ export const ContentTextBanner = styled.div`
   a {
     position: relative;
     background: rgba(0, 0, 0, 0.5);
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #fff;
     text-decoration: none;
     border: 2px solid #fff;

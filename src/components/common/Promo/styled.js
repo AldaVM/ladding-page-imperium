@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContainerPromo = styled.div`
   display: flex;
+  padding: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -24,6 +25,7 @@ export const ContainerPromo = styled.div`
 
 export const SupayRight = styled.div`
   position: absolute;
+  display: block;
   width: 340px;
   top: 4rem;
   right: 0;
@@ -31,6 +33,14 @@ export const SupayRight = styled.div`
   img {
     width: 100%;
     vertical-align: top;
+  }
+
+  @media only screen and (max-width: 1350px) {
+    width: 300px;
+  }
+
+  @media only screen and (max-width: 1300px) {
+    display: none;
   }
 `;
 

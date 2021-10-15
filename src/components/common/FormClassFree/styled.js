@@ -4,6 +4,12 @@ export const ContainerForm = styled.section`
   width: 47%;
   color: #fff;
   font-weight: 700;
+  margin-top: 0;
+
+  @media only screen and (max-width: 960px) {
+    margin-top: 2rem;
+    width: 100%;
+  }
 
   form {
     display: flex;
@@ -41,8 +47,7 @@ export const ErrorMessageForm = styled.span`
 export const MessageResponse = styled.div`
   padding-top: 1rem;
   font-size: 1.5rem;
-
-`
+`;
 
 export const ButtonForm = styled.button`
   background-color: var(--red-primary);

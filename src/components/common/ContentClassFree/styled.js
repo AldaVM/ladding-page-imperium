@@ -11,16 +11,21 @@ export const ContainerTextClassFree = styled.div`
     color: #ffffff;
     letter-spacing: 1px;
   }
+
+  @media only screen and (max-width: 960px) {
+    width: 100%;
+  }
 `;
 
 export const ListClassFree = styled.ul`
   color: #fff;
-  font-size: 1.5rem;
+
   font-weight: 700;
   text-align: center;
 
   li {
     padding: 0.5rem 0;
+    font-size: var(--font-size-free-item);
   }
 
   li::before {
@@ -33,8 +38,8 @@ export const ListClassFree = styled.ul`
   }
 `;
 
-export const TitleForm = styled.h3`
-  font-size: 6rem;
+export const TitleForm = styled.h2`
+  font-size: var(--font-size-free-title);
   font-weight: 700;
   text-align: center;
   line-height: 1;
@@ -42,6 +47,7 @@ export const TitleForm = styled.h3`
   color: #ffffff;
 
   span {
+    font-size: var(--font-size-free-title);
     color: var(--red-primary);
     font-weight: 700;
   }

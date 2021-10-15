@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const ListNavbar = styled.ul`
+  display: block;
   display: flex;
   justify-content: flex-start;
+
+  @media only screen and (max-width: 950px) {
+    display: none;
+  }
 `;
 
 export const ItemNavbar = styled.li`
@@ -29,9 +34,5 @@ export const ItemNavbar = styled.li`
   @media only screen and (max-width: 1400px) {
     width: 10rem;
     font-size: 0.8em;
-  }
-
-  @media only screen and (max-width: 1200px) {
-    display: none;
   }
 `;

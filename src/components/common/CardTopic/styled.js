@@ -18,7 +18,7 @@ export const ContainerCard = styled.li`
   color: #fff;
 
   h2 {
-    font-size: 2rem;
+    font-size: var(--font-size-sub-titles);
     font-weight: 700;
     margin: 1rem 0;
   }
