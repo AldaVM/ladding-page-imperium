@@ -9,7 +9,7 @@ import FormClassFree from "../FormClassFree";
 
 export default function ClassFree() {
   return (
-    <Container>
+    <Container id="clase-gratis">
       <MainClassFree>
         <TitleClassFree>
           <span>¿</span>LISTO PARA DESCUBRIR DE LO QUE ERES CAPAZ<span>?</span>

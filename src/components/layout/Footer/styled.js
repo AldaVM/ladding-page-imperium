@@ -3,9 +3,16 @@ import styled from "styled-components";
 export const FooterContent = styled.div`
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
+
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const FooterContainer = styled.footer`
@@ -34,10 +41,19 @@ export const TitleFooter = styled.h3`
   font-weight: 700;
   color: #fff;
   padding: 0;
+
+  @media only screen and (max-width: 500px) {
+    text-align: center;
+  }
 `;
 
 export const ListUbications = styled.ul`
   padding-left: 1rem;
+
+  @media only screen and (max-width: 500px) {
+    padding-left: 0;
+    text-align: center;
+  }
   li {
     margin-bottom: 1rem;
     color: #fff;
@@ -59,6 +75,11 @@ export const ListSocials = styled.ul`
     font-size: var(--font-size-footer);
     text-align: right;
     font-weight: 700;
+
+    @media only screen and (max-width: 500px) {
+      text-align: center;
+    }
+
     span {
       color: var(--red-primary);
       font-weight: 700;

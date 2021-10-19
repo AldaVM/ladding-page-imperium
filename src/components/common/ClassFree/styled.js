@@ -66,6 +66,7 @@ export const ContainerFrom = styled.div`
   z-index: 2;
 
   @media only screen and (max-width: 960px) {
+    width: 95%;
     flex-direction: column;
   }
 `;

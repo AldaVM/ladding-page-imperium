@@ -27,6 +27,14 @@ export const ContainerImage = styled.div`
     height: 100%;
     vertical-align: top;
   }
+
+  @media only screen and (max-width: 1000px) {
+    max-height: auto;
+
+    img {
+      height: auto;
+    }
+  }
 `;
 
 export const ContentBanner = styled.div`

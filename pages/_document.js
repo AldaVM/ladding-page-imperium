@@ -45,6 +45,7 @@ class MyDocument extends Document {
 
           <meta property="og:title" content="Imperium Cross WebSite" />
           <meta property="og:image" content="/assets/logo-imperium-cross.png" />
+          <title>IMPERIUMCROSS</title>
         </Head>
         <body>
           <Main />

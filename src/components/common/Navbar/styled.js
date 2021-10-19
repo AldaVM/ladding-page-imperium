@@ -31,6 +31,14 @@ export const ItemNavbar = styled.li`
     color: var(--red-primary);
   }
 
+  a {
+    text-decoration: none;
+    color: #ffffff;
+
+    :hover {
+      color: var(--red-primary);
+    }
+  }
   @media only screen and (max-width: 1400px) {
     width: 10rem;
     font-size: 0.8em;
